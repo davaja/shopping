@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html
-        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
     <link href="files/css/fitnesse.css" rel="stylesheet" type="text/css" />
-    <title>Three for the Price of Two</title>
-</head>
-<body>
-   <h1>Till Receipt for Discount Purchases</h1><table border="0"  cellpadding="">
+
+    <title>Till Receipt for Basic Purchases</title>
+  </head>
+
+  <body>
+   <h1>Till Receipt for Basic Purchases</h1><table border="0"
+      cellpadding="">
       <tr>
-        <td colspan="4">Given the following products</td>
+        <td colspan="3">Given the following products</td>
       </tr>
 
       <tr>
@@ -20,7 +22,7 @@
 
         <td>Unit Price</td>
 
-         <td>Discount</td>
+          <td>Discount</td>
 
       </tr>
 
@@ -41,7 +43,7 @@
 
         <td>1.00</td>
 
-          <td>3 for 2</td>
+           <td>3 for 2</td>
       </tr>
 
       <tr>
@@ -51,7 +53,7 @@
 
         <td>0.75</td>
 
-         <td>None</td>
+          <td>None</td>
       </tr>
     </table><table border="0">
       <tr>
@@ -62,12 +64,20 @@
       <tr>
         <td>The customer purchases</td>
       </tr>
-
+	  
 	  <tr>
 	    <td>Product</td>
 	  </tr>
-
+	  
       <tr>
+        <td>Milk</td>
+      </tr>
+
+       <tr>
+        <td>Milk</td>
+      </tr>
+
+       <tr>
         <td>Milk</td>
       </tr>
 
@@ -76,36 +86,27 @@
       </tr>
 
       <tr>
-        <td>Milk</td>
-      </tr>
-
-
-       <tr>
         <td>Bread</td>
       </tr>
 
        <tr>
         <td>Bread</td>
-      </tr>
-
-       <tr>
-        <td>Milk</td>
       </tr>
 
        <tr>
         <td>Bread</td>
       </tr>
     </table>
-
+    
     <p>The receipt lists the product in the order that they were
   scanned, except that all purchases of the same product are shown as a single
-  line on the receipt with the discount applied indicated.</p>
-
-  <table  border="0">
+  line on the receipt.</p>
+  
+  <table bgcolor="" border="0">
       <tr>
         <td colspan="2">The receipt shows</td>
       </tr>
-
+      
       <tr>
         <td>Line</td>
         <td>Text</td>
@@ -115,26 +116,20 @@
         <td>1</td>
         <td>3 Milk @ 0.50 each = 1.50</td>
       </tr>
-      <tr class="receiptLine">
-        <td>2</td>
-        <td>Discount on Milk @ 3 for 2 = -0.50</td>
-      </tr>
 
       <tr class="receiptLine">
-        <td>3</td>
+        <td>2</td>
         <td>1 Cheese @ 1.00 each = 1.00</td>
       </tr>
 
       <tr class="receiptLine">
-        <td>4</td>
+        <td>3</td>
         <td>3 Bread @ 0.75 each = 2.25</td>
       </tr>
 
       <tr class="receiptLine">
-        <td>5</td>
-        <td>Total = 4.25</td>
+        <td>4</td>
+        <td>Total = 4.75</td>
       </tr>
-    </table>
-
-</body>
+    </table></body>
 </html>
